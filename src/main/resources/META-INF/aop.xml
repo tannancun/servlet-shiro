@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspectj>
+    <aspects>
+        <!-- declare shiro aspects to the weaver -->
+        <aspect name="org.apache.shiro.aspectj.ShiroAnnotationAuthorizingAspect"/>
+    </aspects>
+
+    <weaver options="-verbose -showWeaveInfo">
+        <include within="cn.infop.controller.setting..*"/>
+    </weaver>
+</aspectj>

@@ -1,0 +1,95 @@
+<taglib xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd" version="2.1">
+
+	<description>CMS 1.0 HTML Script</description>
+	<display-name>HTML 代码组</display-name>
+	<tlib-version>1.0</tlib-version>
+	<short-name>admin</short-name>
+	<uri>http://www.infop.cn/tag/admin</uri>
+
+	<tag>
+		<description>
+            获取基本路径，协议://ip:port:/projectName/
+        </description>
+		<name>basePath</name>
+		<tag-class>cn.infop.tag.BasePath</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+	<tag>
+		<description>
+          控制台标题
+        </description>
+		<name>consoleTitle</name>
+		<tag-class>cn.infop.tag.ConsoleTitle</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+	<tag>
+		<description>
+          系统名称
+        </description>
+		<name>systemName</name>
+		<tag-class>cn.infop.tag.SystemName</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+	<tag>
+		<description>
+          版本信息
+        </description>
+		<name>copyright</name>
+		<tag-class>cn.infop.tag.Copyright</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+	<tag>
+		<description>
+       Logo
+        </description>
+		<name>logo</name>
+		<tag-class>cn.infop.tag.SystemLogo</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+	<tag>
+		<description>
+       Favicon
+        </description>
+		<name>favicon</name>
+		<tag-class>cn.infop.tag.Favicon</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+
+	<tag-file>
+		<name>meta</name>
+		<path>/WEB-INF/tags/meta.tag</path>
+	</tag-file>
+
+	<tag-file>
+		<name>navbar</name>
+		<path>/WEB-INF/tags/navbar.tag</path>
+	</tag-file>
+
+	<tag-file>
+		<name>main-sidebar</name>
+		<path>/WEB-INF/tags/main-sidebar.tag</path>
+	</tag-file>
+
+	<tag-file>
+		<name>footer</name>
+		<path>/WEB-INF/tags/footer.tag</path>
+	</tag-file>
+
+	<tag-file>
+		<name>control-sidebar</name>
+		<path>/WEB-INF/tags/control-sidebar.tag</path>
+	</tag-file>
+
+	<tag-file>
+		<name>js</name>
+		<path>/WEB-INF/tags/js.tag</path>
+	</tag-file>
+
+
+</taglib> 
